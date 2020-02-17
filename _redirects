@@ -1,3 +1,3 @@
 / https://vote.us.openubiproject.org/ 301!
 http://vote.us.openubiproject.org/* https://vote.us.openubiproject.org/:splat 301!
-/* https://givedirect.io/vote_ubi/:splat 200
+# /* https://givedirect.io/vote_ubi/:splat 200
