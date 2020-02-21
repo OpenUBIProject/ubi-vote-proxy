@@ -1,1 +1,79 @@
-You're not meant to see this.
+<head>
+  <title>Vote UBI</title>
+</head>
+
+<body>
+  <a class="open-ubi-banner" href="https://us.openubiproject.org">
+    <div class="open-ubi-banner-inner">
+      <img
+        src="https://support.us.openubiproject.org/img/%3E=.svg"
+        alt="UBI Caucus Logo"
+      />
+      <span class="open-ubi-banner-text">
+        This site is part of the UBI Caucus ↗</span
+      >
+    </div>
+  </a>
+  <iframe src="https://givedirect.io/vote_ubi"></iframe>
+</body>
+
+<style>
+  @import url("https://rsms.me/inter/inter.css");
+  html {
+    font-family: "Inter", sans-serif;
+  }
+  @supports (font-variation-settings: normal) {
+    html {
+      font-family: "Inter var", sans-serif;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .open-ubi-banner-inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1264px;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .open-ubi-banner {
+    background: #243665;
+    color: white;
+    font-weight: 400;
+    display: block;
+    text-decoration: none;
+  }
+
+  .open-ubi-banner-inner {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    transition: opacity 200ms ease-in-out;
+  }
+
+  .open-ubi-banner img {
+    height: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .open-ubi-banner:hover .open-ubi-banner-inner {
+    opacity: 1;
+  }
+
+  iframe {
+    border: none;
+    flex-grow: 1;
+  }
+</style>
